@@ -1,0 +1,109 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hi",
+                "hello",
+                "hey",
+                "jay shri ram",
+                "jay shri krishna",
+                "good day"
+            ],
+            "responses": [
+                "Hello",
+                "jay shri krishna",
+                "jay shri ram"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "thanks",
+                "thank you",
+                "thanks for helping me"
+            ],
+            "responses": [
+                "My pleasure",
+                "You're Welcome"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "What's the weather like?",
+                "How's the weather today?",
+                "Is it going to rain?"
+            ],
+            "responses": [
+                "The weather is sunny today.",
+                "It looks like it might rain later.",
+                "It's cloudy with a chance of showers."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "about",
+            "patterns": [
+                "how are you",
+                "what about you"
+            ],
+            "responses": [
+                "i am fine, how are you doing"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "my name",
+            "patterns": [
+                "what is my name",
+                "about me"
+            ],
+            "responses": [
+                "Your name is Himanshu and you is B.tech student",
+                "i know you, you are himanshu an engineer"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "nanni",
+            "patterns": [
+                "nanni",
+                "are you here"
+            ],
+            "responses": [
+                "what can i do for you",
+                "yes i am here himanshu"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "love",
+            "patterns": [
+                "love you",
+                "miss you"
+            ],
+            "responses": [
+                "i love you too",
+                "ooh i love you so much"
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}
